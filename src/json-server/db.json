@@ -1,0 +1,114 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "companyName": "ITGlance",
+      "profile": "Front End Developer Intern",
+      "startYear": 2019,
+      "endYear": 2020,
+      "website": "https://www.itglance.net/",
+      "logo": "https://www.itglance.net/images/itg-logo-blue_9bbc520c6aead86adb25c0d2130b75eb-e1569909157406.png"
+    },
+    {
+      "id": 2,
+      "companyName": "High Radius India",
+      "profile": "B2B website Intern",
+      "startYear": 2020,
+      "endYear": 2021,
+      "website": "https://www.highradius.com/",
+      "logo": "https://cdn.highradius.com/wp-content/uploads/2020/09/HighRadius-Trifecta-2020.svg"
+    },
+    {
+      "id": 3,
+      "companyName": "Broadways Infosys",
+      "profile": "React js Course",
+      "startYear": 2021,
+      "endYear": 2022,
+      "website": "https://broadwayinfosys.com/",
+      "logo": "https://broadwayinfosys.com/uploads/logo/255_77_1582513174.255_77_1578457998.logo-2.png"
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "title": "School",
+      "schoolname": "Manakamana Public School",
+      "startYear": 2002,
+      "endYear": 2014,
+      "address": "Biswakarma Chowk, Janakpurdham,Nepal",
+      "logo": "https://scontent.fsif1-1.fna.fbcdn.net/v/t1.6435-9/57244807_1684653858347536_8306962836366557184_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=d3WfxGBc15oAX91d0y2&_nc_ht=scontent.fsif1-1.fna&oh=aa66ad8d9a2de96ae9b72d6d0820f1d1&oe=60DEBD16",
+      "website": "https://www.facebook.com/Manakamana-Public-Secondary-School-1678906088922313"
+    },
+    {
+      "id": 2,
+      "title": "High School",
+      "schoolname": "New English H.S.B School",
+      "startYear": 2014,
+      "endYear": 2016,
+      "address": "Murli Chowk, Janakpurdham, Nepal",
+      "logo": "https://scontent.fsif1-1.fna.fbcdn.net/v/t1.6435-9/35870772_1807355542705435_458889789261742080_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=DI8QsSY2uxQAX8WAmJg&_nc_ht=scontent.fsif1-1.fna&oh=1352c6a88d8e86848117ca8363236f23&oe=60DE8F64",
+      "website": "https://www.facebook.com/New-English-Secondary-Boarding-School-1589428104498181"
+    },
+    {
+      "id": 3,
+      "title": "University",
+      "schoolname": "KIIT Deemed University",
+      "startYear": 2017,
+      "endYear": 2021,
+      "address": "Patia, Bhubaneswor,Odisha, India",
+      "logo": "https://cdn.kiit.ac.in/wp-content/uploads/2017/09/KIIT-University-Logo-e1506355385141-1.jpg",
+      "website": "https://kiit.ac.in/"
+    }
+  ],
+  "query": [
+    {
+      "id": 1,
+      "name": "Rajan",
+      "status": "Replied",
+      "question": "Where do you live?",
+      "answer": "I live in Janakpur"
+    },
+    {
+      "id": 2,
+      "name": "Roshan",
+      "status": "Replied",
+      "question": "How do you utilize your time in lockdown?",
+      "answer": "Give time to projects where your intrest lies."
+    },
+    {
+      "name": "Niraj y",
+      "question": "Where do you live?",
+      "status": "Not Replied",
+      "answer": "",
+      "id": 5
+    },
+    {
+      "name": "raja",
+      "question": "I am raja",
+      "status": "Not Replied",
+      "answer": "",
+      "id": 6
+    },
+    {
+      "name": "Ram",
+      "question": "I am ram",
+      "status": "Not Replied",
+      "answer": "",
+      "id": 7
+    }
+  ],
+  "Deleted-Query": [
+    {
+      "name": "aa",
+      "question": "bb",
+      "status": "Not Replied",
+      "answer": "",
+      "id": 9
+    },
+    {
+      "status": "Not Replied",
+      "answer": "",
+      "id": 8
+    }
+  ]
+}

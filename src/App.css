@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+
+#image1{
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#aboutme,#academic,#experience  ,#query{
+  /* height: 98vh; */
+  margin: 0;
+  background-color: whitesmoke;
+  padding: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-title{
+  margin-top: 1%;
+  margin-bottom: 4%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-title,.academic-title,.experience-title,.query-title{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+.description-body{
+  display: flex;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.description-text{
+  width: 50%;
+  padding: 15px;
+}
+.description-text p{
+  font-size: larger;
+}
+.description-image{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description-image img{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.card-display{
+  padding: 25px;
+  margin: 0 100px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.query-card-display{
+  display: flex;
+  
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  border: none;
+}
+.visit-button{
+  background: transparent;
+}
+a{
+  text-decoration: none;
+}
+.QueryHeading{
+  margin-top: 5%;
+  text-align: center;
+  font-size: larger;
+}
+@media screen and (max-width: 480px) {
+  #image1{
+    height: 90vh;
   }
-  to {
-    transform: rotate(360deg);
+  .description-body{
+    display: block;
+  }
+  .description-image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .description-image,.description-text{
+    width: 100%;
+  }
+  .description-text p{
+    font-size: medium;
+  }
+  #aboutme,#academic,#experience ,#query {
+    /* height: 98vh; */
+    margin: 0;
+    padding: 0;
+  }
+  .card-display,.query-card-display{
+    display: block;
+    padding: 20px;
+    margin: 0;
+  }
+  .card{
+    margin-bottom: 15px;
+  }
+  .QueryHeading{
+    margin-top: 20%;
   }
 }
