@@ -65,7 +65,7 @@
       "id": 1,
       "name": "Rajan",
       "status": "Replied",
-      "question": "Where do you live?",
+      "question": "Where do you live? edit test",
       "answer": "I live in Janakpur"
     },
     {
@@ -83,32 +83,20 @@
       "id": 3
     },
     {
+      "name": "add test",
+      "question": "add test question",
+      "status": "Not Replied",
+      "answer": "",
+      "id": 4
+    }
+  ],
+  "Deleted-Query": [
+    {
       "name": "raja",
       "question": "I am raja",
       "status": "Not Replied",
       "answer": "",
       "id": 4
-    },
-    {
-      "name": "Ram",
-      "question": "I am ram",
-      "status": "Not Replied",
-      "answer": "",
-      "id": 5
-    }
-  ],
-  "Deleted-Query": [
-    {
-      "name": "aa",
-      "question": "bb",
-      "status": "Not Replied",
-      "answer": "",
-      "id": 6
-    },
-    {
-      "status": "Not Replied",
-      "answer": "",
-      "id": 7
     }
   ]
 }
