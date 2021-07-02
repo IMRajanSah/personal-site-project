@@ -21,7 +21,7 @@ const MyAcademics = () => {
     
 
     const getAllEducation = async () => {
-        let response =await axios.get('https://personal-site-project.herokuapp.com/education');
+        let response =await axios.get('https://personal-site-project.herokuapp.com/api/education');
         setEducations(response.data);
         // console.log(response.data);
     }
